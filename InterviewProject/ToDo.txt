@@ -1,0 +1,18 @@
+﻿Write a simple console application in .NET 6  that allows the user to perform some simple actions on products database. 
+
+It should provide basic funcionality of adding, updating, searching, and filtering products. In addition the user should have an ability to calculate item price in different currencies (PLN, USD and EUR - use some predefined constants for calculations).
+Please separate operations into commands with different numbers, as following:
+
+DONE - 1. Get product (searches for product with given name)
+DONE - 2. Add new product
+DONE - 3. Update product
+DONE - 4. Get the cheapest product
+DONE - 5. Get the most expensive product
+DONE - 6. Get last modified product (returns last modified product, depending on its modification date)
+DONE - 7. Calculate product price in different currency (calculates product price depending on currency given by the user)
+DONE - 8. Exit
+
+The command that will be executed should depend on user keyboard input.
+
+Feel free to edit, refactor and add everything you need (classes, methods etc) in existing project.
+After finishing the application write as many unit tests as you can (you can use any testing framework).
